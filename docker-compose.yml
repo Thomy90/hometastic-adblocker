@@ -28,7 +28,6 @@ services:
       - "homepage.widget.username=${ADGUARD_USERNAME}"
       - "homepage.widget.password=${ADGUARD_PASSWORD}"
 
-
 networks:
   reverse-proxy:
     external: true
